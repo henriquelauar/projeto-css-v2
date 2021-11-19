@@ -6,3 +6,5 @@ Versão 2 da página em HTML e CSS da aula da Gama Academy.
 Nesse projeto foi alterado todo o layout da página;
 adicionado 3 botões responsivos que abrem e fecham textos e elementos;
 aplicado responsividade para celulares e tablets.
+
+link da página: henriquelauar/henriquelauar.github.io
