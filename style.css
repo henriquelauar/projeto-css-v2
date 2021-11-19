@@ -1,0 +1,262 @@
+* {
+    font-family: 'Mulish', sans-serif;
+    color: #494D4B;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 9;
+    background-color: #000000;
+}
+
+.logo {
+    position: fixed;
+    margin-bottom: 700px;
+}
+
+ul li {
+    list-style: none;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    margin-right: 50px;
+}
+
+main {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    margin-left: 280px;
+}
+
+h1 {
+    font-size: 50px; 
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h3 {
+    margin-top: 120px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Saira Condensend', sans-serif;
+}
+
+#arrow1 {
+    font-size: 20px;
+    cursor: pointer;
+    animation: blink 1s steps(5, start) infinite;
+    transform: rotate(180deg);
+    position: absolute;
+}
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
+
+#animation {
+    transition: 300ms;
+}
+
+.rotate {
+    transform: rotate(180deg);
+    transition: 300ms;
+}
+
+.active {
+    display: block !important;
+}
+
+#about p {
+    max-width: 1000px;
+    margin-top: 50px;
+    font-size: 18px;
+    text-align: left;
+    font-weight: 500;
+}
+
+#arrow2 {
+    font-size: 20px;
+    cursor: pointer;
+    animation: blink 1s steps(5, start) infinite;
+    transform: rotate(180deg);
+    position: absolute;
+}
+
+#animation2 {
+    transition: 300ms;
+}
+
+.rotate2 {
+    transform: rotate(180deg);
+    transition: 300ms;
+}
+
+.active2 {
+    display: block !important;
+}
+
+#habilidades {
+    margin-top: 70px;
+}
+
+#arrow3 {
+    font-size: 20px;
+    cursor: pointer;
+    animation: blink 1s steps(5, start) infinite;
+    transform: rotate(180deg);
+    position: absolute;
+}
+
+
+#animation3 {
+    transition: 300ms;
+}
+
+.rotate3 {
+    transform: rotate(180deg);
+    transition: 300ms;
+}
+
+.active3 {
+    display: block !important;
+}
+
+#contato {
+    margin-top: 50px;
+}
+
+::placeholder {
+     text-align: center;
+     color: white;
+}
+
+
+.form input {
+    width: 200px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    padding: 5px 0px 5px 10px;
+    color: rgb(255, 255, 255);
+    background: #494D4B;
+}
+
+.form button {
+    margin: 20px;
+    margin-left: -5px;
+    width: 80px;
+    padding: 5px 10px 5px 10px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, rgb(18, 134, 34) 50%, #000000 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+    transition: all 300ms ease-out;;
+}
+
+.instituiçoes {
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+}
+
+p {
+    text-align: center;
+    margin-top: 260px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.form button:hover {
+    background-position: left bottom;
+    color: white;
+}
+
+footer {
+    position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+    .form {
+        width: 100%;
+    }
+    footer {
+        margin-top: 400px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header {
+        width: 30%;
+    }
+    .logo img {
+        width: 90px;
+    }
+    ul li {
+        font-size: 15px;
+    }
+    main {
+        margin-left: 150px;
+    }
+    #about p {
+        font-size: 16px;
+    }
+    .form input    {
+        width: 130px;
+        font-size: 10px
+    }
+    .form button {
+        width: 50px;
+        font-size: 10px;
+    }
+    .instituiçoes img{
+        display: flex;
+        max-width: 30px;
+        margin-right: -40px 
+    }
+    .copyright p {
+        font-size: 10px;
+        margin-left: 18px;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h3 {
+        font-size: 20px;
+        }
+    .logo {
+        margin-top: 170px;       
+    }
+    ul {
+        margin-top: 250px;
+    }
+}
