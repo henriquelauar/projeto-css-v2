@@ -1,6 +1,6 @@
 Essa página foi criada como intuito de ser um portfólio para o aluno, nela contém informações sobre quem eu sou, minhas habilidades e minhas redes sociais.
 
-LINK: henriquelauar/henriquelauar.github.io
+LINK: https://henriquelauar.github.io/Projeto-CSS-V2/
 
 Versão 2 da página em HTML e CSS da aula da Gama Academy.
 
